@@ -13,11 +13,12 @@ Tech Stack used : Python ,Langchain ,ChromaDB ,Streamlit
 ## Steps
 
 1. Create an API token in both [HuggingFace](https://huggingface.co) and [GroqCloud](https://console.groq.com/playground) and paste in .env file
-   Caution : The API by HuggingFace has a monthly limit and may run out soon
+   
+   Caution: The API by HuggingFace has a monthly limit; keep that in mind
    
 ![image](https://github.com/user-attachments/assets/dbe708ec-c26f-4314-82c7-c2a0a27b4a91)
 
-2. Create a Python environment I have used conda but you are free to any approach below ,It is advised to go with a python version==3.12.5 or above
+2. Create a Python environment. I have used conda, but you are free to use any approach below. It is advised to go with a Python version==3.12.5 or above
 
    Approach 1:
    ```sh
@@ -39,7 +40,7 @@ source .venv/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
-4. Install tesseract-ocr from this [Link](https://github.com/UB-Mannheim/tesseract/wiki) and setup ,note the path to tesseract-ocr folder and add the path in the environmental variables ,
+4. Install tesseract-ocr from this [Link](https://github.com/UB-Mannheim/tesseract/wiki) and setup, note the path to the  tesseract-ocr folder and add the path in the environmental variables,
    you can use the following [link](https://stackoverflow.com/questions/50951955/pytesseract-tesseractnotfound-error-tesseract-is-not-installed-or-its-not-i) for reference
    Make sure that you give the correct path for the tesseract.exe file in the code shown below as it may differ for you
    ![image](https://github.com/user-attachments/assets/51481339-01cd-43ae-addb-2c7ef110124f)
