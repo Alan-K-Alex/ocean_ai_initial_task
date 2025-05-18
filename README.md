@@ -54,13 +54,13 @@ streamlit run multimodal_rag_app.py
 
 You can upload a pdf and ask any question on it. 
 
-![output1](https://github.com/user-attachments/assets/b76ff104-6cd2-4e84-bfd5-da01c6d5bc44)
+<img src="https://github.com/user-attachments/assets/b76ff104-6cd2-4e84-bfd5-da01c6d5bc44" width="700" height="650" >
 
 You can also upload a image /screenshot related with the pdf and it will give answers ,thanks to powerful VQA llama model 
 
-![output3](https://github.com/user-attachments/assets/c4c3fa8b-26cf-46fe-97c7-ecdcacd06b2d)
+<img src="https://github.com/user-attachments/assets/c4c3fa8b-26cf-46fe-97c7-ecdcacd06b2d" width="900" height="512" >
 
 Below given is a response answer to the above scenario.
 
+<img src="https://github.com/user-attachments/assets/f67cfcda-f15b-4aca-b0ba-ef473320174e" width="900" height="630" >
 
-![output2](https://github.com/user-attachments/assets/f67cfcda-f15b-4aca-b0ba-ef473320174e)
